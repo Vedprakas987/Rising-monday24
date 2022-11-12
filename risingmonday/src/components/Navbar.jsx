@@ -23,7 +23,7 @@ function Navbar(){
           <a className="nav-link active" aria-current="page" href="/Resources">Resources</a>
         </li>
         <li className="nav-item">
-          <a style={{marginLeft:"450px"}} className="nav-link active" aria-current="page" href="/Resources">Pricing</a>
+          <a style={{marginLeft:"550px"}} className="nav-link active" aria-current="page" href="/Resources">Pricing</a>
         </li>
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="/Resources">Contact sales</a>

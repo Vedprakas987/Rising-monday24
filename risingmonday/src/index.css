@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -63,3 +64,112 @@ width: 6%;
 height: 6%;
 margin-top: 30px;
 }
+#mid{
+display: flex;
+margin-top: 550px;
+gap: 50px;
+}
+.btn1{
+margin-top: -20px;
+border-radius: 20px;
+background-color: rgb(107, 107, 226);
+color: white;
+border: 0px;
+}
+.btn1:hover{
+  background-color: rgb(157, 46, 46);
+  color: white;
+}
+#mid2{
+margin-top: 30px;
+display: grid;
+grid-template-columns: 25% 50%;
+gap: 150px;
+background-color: #030534;
+color: white;
+padding: 5%;
+}
+#mid3{
+display: grid;
+grid-template-columns: 60% 70%;
+gap: 5px;
+margin-top: 70px;
+margin-left: -45px;
+
+}
+#mid3>img{
+margin-top: 13px;
+margin-left: 30px;
+width: 70%;
+height: 70%;
+}
+#con2{
+display: flex;
+gap: 15px;
+justify-content: center;
+}
+#con3{
+margin-top: 30px;
+font-family: sofia-pro, Roboto, Helvetica, Arial, sans-serif;
+
+}
+#con2>div{
+padding: 5px;
+}
+#con2>div:hover{
+background-color: rgb(243, 223, 223);
+}
+#con4{
+display: flex;
+gap: 10px;
+color: black;
+text-align: center;
+}
+#con4>div>video{
+width: 100%;
+height: 100%;
+}
+#main{
+display: flex;
+}
+
+#main>div{
+border: 1px solid red;
+}
+#con6{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 2px;
+}
+
+#con6>div>img{
+width: 60%;
+
+}
+#main1{
+display: flex;
+padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

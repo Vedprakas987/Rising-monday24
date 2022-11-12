@@ -103,6 +103,9 @@ return(
   <img src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/customers/logos-v2/universal.png"/>
 </div>
 </div>
+
+
+
 </>
 )
 }
