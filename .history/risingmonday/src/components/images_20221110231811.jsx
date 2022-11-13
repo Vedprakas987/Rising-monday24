@@ -1,0 +1,9 @@
+import image
+function images(){
+return(
+    <>
+    
+    </>
+)
+}
+export default images;
