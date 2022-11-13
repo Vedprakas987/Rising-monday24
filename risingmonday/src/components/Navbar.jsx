@@ -1,4 +1,4 @@
-import { Button} from '@chakra-ui/react'
+import {Link} from "react-router-dom"
 function Navbar(){
     return(
         <>
@@ -11,10 +11,10 @@ function Navbar(){
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li style={{marginLeft:"20px"}} className="nav-item">
-          <a className="nav-link active" aria-current="page" href="/Products">Products</a>
+          <Link to = "/product" className="nav-link active" aria-current="page">Product</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="/Products">Use cases</a>
+        <Link to = "/Usecase" className="nav-link active" aria-current="page">Usecases</Link>
         </li>
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="/Features">Features</a>

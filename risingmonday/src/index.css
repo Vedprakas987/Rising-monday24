@@ -133,43 +133,69 @@ height: 100%;
 display: flex;
 }
 
-#main>div{
-border: 1px solid red;
-}
 #con6{
 display: grid;
 grid-template-columns: repeat(2,1fr);
 gap: 2px;
+margin-top: 20px;
 }
 
 #con6>div>img{
 width: 60%;
+height: 70%;
 
 }
 #main1{
 display: flex;
 padding: 10px;
 }
+#main1>div:nth-child(2){
+  margin-top: 40px;
+  margin-left: 40px;
+  height: 60%;
+}
+#main1>div:nth-child(2):hover{
+  background-color:rgb(243, 232, 236);
+  padding: 5px;
 
+}
+#con6>div:hover{
+background-color:rgb(227, 218, 221);
+}
+#main3>div>div>img{
+width: 20%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#main3>div{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+#main3{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+padding: 0px;
+}
+#main3>div>div:hover{
+background-color: rgb(247, 240, 241);
+padding: 5px;
+}
+#main3>div>div{
+  margin-top: 20px;
+}
+#main3>div{
+border-left: 1px solid grey;
+}
+#main3>div:nth-child(2){
+  display: flex;
+  flex-direction: column;
+  justify-content
+  : baseline;
+}
+#main3>div:nth-child(2)>div>img{
+width: 10%;
+}
+#texts{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+text-align: inherit;
+}
